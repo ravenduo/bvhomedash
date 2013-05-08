@@ -1,7 +1,7 @@
 devs:
-  twitter-search:
-    order: 1
-    term: "@chicago"
+  # twitter-search:
+    # order: 1
+    # term: "@chicago"
 
   # github-commits:
     # order: 2
@@ -24,13 +24,11 @@ devs:
 
   cta-train-tracker:
     order: 5
-    map-id: "12345"
-    api-key: "abc123"
-    stop: "Harrison"
-    stop: "Roosevelt"
+    map-id: "41490"
+    api-key: "c5914e33ab5b4436b7ca9e34207c89d2"
 
-  google-weather:
-    city: "Chicago"
+  # google-weather:
+    # city: "Chicago"
 
   #nagios-problems:
     #order: 6
@@ -44,20 +42,20 @@ devs:
     #username: "yourusername"
     #password: "yourpassword"
 
-  #elovation-game:
-    #order: 8
-    #url: "http://url.example.com"
-    #game-id: "3"
-    #username: "yourusername"
-    #password: "yourpassword"
+  elovation-game:
+    order: 8
+    url: "http://sc-pingpong.herokuapp.com"
+    game-id: "3"
+    username: "sittercity"
+    password: "pingpong"
 
   #jukebox:
     #order: 9
     #url: "http://url.example.com"
 
-  dark-sky:
-    order: 10
-    api-key: bf4410b69c742fcf5acce93fdb9f0768api-key
-    lat: 41.90
-    lon: 87.65
-    interval: 60
+  # dark-sky:
+    # order: 10
+    # api-key: bf4410b69c742fcf5acce93fdb9f0768api-key
+    # lat: 41.90
+    # lon: 87.65
+    # interval: 60
