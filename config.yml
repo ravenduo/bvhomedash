@@ -8,10 +8,10 @@ devs:
     # username: "ravenduo"
     # repository: "sc-pingpong"
 
-  cta-bus-tracker:
-    order: 3
-    route-number: 29
-    stop-id: 2355
+  # cta-bus-tracker:
+  #   order: 3
+  #   route-number: 29
+  #   stop-id: 2355
 
   clock:
     interval: 30
@@ -24,7 +24,12 @@ devs:
 
   cta-train-tracker:
     order: 5
-    map-id: "41490"
+    map-id: "40330"
+    api-key: "c5914e33ab5b4436b7ca9e34207c89d2"
+
+  cta-train-tracker:
+    order: 6
+    map-id: "40460"
     api-key: "c5914e33ab5b4436b7ca9e34207c89d2"
 
   # google-weather:
@@ -36,9 +41,9 @@ devs:
     #username: "yourusername"
     #password: "yourpassword"
 
-  #jenkins-builds:
-    #order: 7
-    #url: "https://url.example.com"
+  # jenkins-builds:
+  #   order: 7
+  #   url: "http://deploy.emp.sittercity.com:8080"
     #username: "yourusername"
     #password: "yourpassword"
 
