@@ -13,12 +13,12 @@ devs:
   #   route-number: 29
   #   stop-id: 2355
 
-  clock:
-    interval: 30
-    order: 4
-    timezones:
-      - timezone: "America/Chicago"
-        name: "Chicago"
+  # clock:
+  #   interval: 30
+  #   order: 4
+  #   timezones:
+  #     - timezone: "America/Chicago"
+  #       name: "Chicago"
       # - timezone: "UTC"
         # name: "UTC"
 
