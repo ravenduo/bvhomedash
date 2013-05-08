@@ -19,7 +19,7 @@
 (defpartial main-layout [& content]
   (html5
     [:head
-     [:title "Bob and Meg's Dashboard"]
+     [:title "Dashboard"]
      (include-js "https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js")
      (include-js "/js/vendor/jquery.mustache.js")
      (include-js "/js/vendor/jquery.vticker.js")

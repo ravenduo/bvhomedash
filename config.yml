@@ -45,9 +45,16 @@ devs:
   elovation-game:
     order: 8
     url: "http://sc-pingpong.herokuapp.com"
-    game-id: "3"
+    game-id: "4"
     username: "sittercity"
     password: "pingpong"
+
+  # elovation-game:
+  #   order: 7
+  #   url: "http://sc-pingpong.herokuapp.com"
+  #   game-id: "3"
+  #   username: "sittercity"
+  #   password: "pingpong"
 
   #jukebox:
     #order: 9
